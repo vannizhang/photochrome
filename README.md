@@ -1,6 +1,6 @@
 # PhotoChrome - word-based color palettes
 
-PhotoChrome was made by John Nelson and Vanni Zhang. We’re engineers at Esri, a geographic information systems software company. In the evenings, we can’t help ourselves cobbling together stuff like this. We made PhotoChrome as a convenient resource to generate hopefully-useful color palettes based on words. You type a word, and we’ll give you a color palette to match.
+PhotoChrome was made by [John Nelson] (https://twitter.com/john_m_nelson) and [Vanni Zhang](http://tofuballs.com/). We’re engineers at Esri, a geographic information systems software company. In the evenings, we can’t help ourselves cobbling together stuff like this. We made [PhotoChrome](http://photochrome.io/) as a convenient resource to generate hopefully-useful color palettes based on words. You type a word, and we’ll give you a color palette to match.
 
 When you search a word, PhotoChrome reaches out to the beautiful Unsplash image service, smashes together all of the resulting photos, picks out the predominant colors from the photo soup, then tweaks their brightness so they range evenly from dark to light.
 
