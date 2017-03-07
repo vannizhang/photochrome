@@ -191,107 +191,6 @@ html, body {
         }
     }
 
-    // .top-nav-bar {
-    //     top: $rainbow-line-height;
-    //     left: 0;
-    //     position: absolute;
-    //     height: $top-nav-bar-height;
-    //     width: 100%;
-    //     background-color: rgba(0, 0, 0, 0.75);
-
-    //     div {
-    //         display: inline-block;
-
-    //         span {
-    //             color: #cccccc;
-    //             font-size: 18px;
-    //         }
-
-    //         span.logo {
-    //             font-size: 36px;
-    //         }
-
-    //         span.normal {
-    //             font-weight: 100;
-    //         }
-
-    //         span.bold {
-    //             font-weight: 300;
-    //         }
-
-    //         span.red {
-    //             color: $rainbow-line-color-1;
-    //         }
-
-    //         span.yellow {
-    //             color: $rainbow-line-color-2;                
-    //         }
-
-    //         span.blue {
-    //             color: $rainbow-line-color-3;                
-    //         }
-    //     }
-
-    //     .logo-wrapper {
-
-    //         line-height: $top-nav-bar-height;
-    //         z-index: 100;
-    //         display: inline-flex;
-    //         align-items: center;
-    //         justify-content: center;
-
-    //         position: absolute;
-    //         width: 100%;
-    //         left: 0;
-    //         top: 0;
-    //         text-align: center;
-    //         margin: auto;
-
-    //         .pipe {
-    //             background-color: #555555;
-    //             width: 1px;
-    //             height: 34px;
-    //             margin: 0 10px;
-    //         }
-    //     }
-
-    //     .nav-bar-right {
-    //         // position: absolute;
-    //         // right: 10px;
-    //         line-height: $top-nav-bar-height;
-    //         z-index: 1000 !important;
-    //         position: relative;
-
-    //         display: inline-flex;
-    //         align-items: center;
-
-    //         a {
-    //             color: #cccccc;
-    //         }
-
-    //         .fa {
-    //             color: #999999;
-    //             line-height: inherit;
-    //             margin-right: 8px;
-    //             cursor: pointer;
-    //         }
-
-    //         .pipe {
-    //             background-color: #555555;
-    //             width: 1px;
-    //             height: 34px;
-    //             margin: 0 10px;
-    //         }
-    //     }
-
-    //     .pipe {
-    //         background-color: #555555;
-    //         width: 1px;
-    //         height: 75%;
-    //         margin: 0 10px;
-    //     }
-    // }
-
     .input-group-wrapper {
         $item-height: 64px;
         top: 40%;
@@ -813,7 +712,7 @@ html, body {
         }
 
         .color-palette-item-wrapper {
-            margin: 0 10px;
+            margin: 0 5px;
 
             .color-palette-item { 
                 height: $color-palette-item-height * 1.2;
@@ -830,11 +729,11 @@ html, body {
         }
 
         .input-range-wrapper {
-            display: none;
+            display: none !important;
         }
 
         .copy-button-wrapper {
-            display: none;
+            display: none !important;
         }
 
     }
@@ -860,10 +759,6 @@ html, body {
     .nav > li:hover {
         background-color: rgba(30, 30, 30, 0.9);
     }
-
-    // .copy-button-wrapper {
-    //     display: none;
-    // }
 
     // .color-palette-wrapper-canvas .input-range-wrapper {
     //     margin-left: 10px;
