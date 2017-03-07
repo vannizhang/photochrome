@@ -389,7 +389,8 @@ $(document).ready(function(){
 
     app.calcColorPaletteForCanvas = function() {
         var canvas = $('#blender-canvas')[0];
-        var dataURL = canvas.toDataURL();  
+        var dataURL = canvas.toDataURL(); 
+        canvas.setAttribute("data-caman-hidpi-disabled", true); 
 
         $('<img id="blended-image" src="'+ dataURL +'">').load(function() {
             app.getColorPalette(this, function(d){
