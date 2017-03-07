@@ -351,6 +351,7 @@ $(document).ready(function(){
         var imagesAlpha = ((1/images.length).toFixed(2));
 
         var canvas = $('<canvas/>', { id: 'blender-canvas'})[0];
+        canvas.setAttribute("data-caman-hidpi-disabled", true); 
         this.uiElements.canvasWrapper.prepend(canvas);
         this._fitCanvasToContainer(canvas);
 
@@ -390,7 +391,6 @@ $(document).ready(function(){
     app.calcColorPaletteForCanvas = function() {
         var canvas = $('#blender-canvas')[0];
         var dataURL = canvas.toDataURL(); 
-        canvas.setAttribute("data-caman-hidpi-disabled", true); 
 
         $('<img id="blended-image" src="'+ dataURL +'">').load(function() {
             app.getColorPalette(this, function(d){
