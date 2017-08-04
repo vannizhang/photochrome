@@ -586,7 +586,7 @@ $(document).ready(function(){
     };
 
     app.searchImages = function(tag) {
-        var queryURL = "http://unsplash.plattekloof.co/getImages";
+        var queryURL = "https://unsplash.plattekloof.co/getImages";
         if(!tag){
             alert('please provide a theme that you wanted to search for, like "mountain"');
             return;
