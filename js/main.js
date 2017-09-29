@@ -586,7 +586,7 @@ $(document).ready(function(){
     };
 
     app.searchImages = function(tag) {
-        var queryURL = "https://unsplash.plattekloof.co/getImages";
+        var queryURL = "https://unsplash.vannizhang.com/getImages";
         if(!tag){
             alert('please provide a theme that you wanted to search for, like "mountain"');
             return;
@@ -802,7 +802,7 @@ $(document).ready(function(){
             height = 300,
             left   = ($(window).width()  - width)  / 2,
             top    = ($(window).height() - height) / 2,
-            url    = 'http://twitter.com/intent/tweet?hashtags=PhotoChrome&text=' + message + '&url=' + encodeURIComponent(window.location.href),
+            url    = 'https://twitter.com/intent/tweet?hashtags=PhotoChrome&text=' + message + '&url=' + encodeURIComponent(window.location.href),
             opts   = 'status=1' +
                     ',width='  + width  +
                     ',height=' + height +
@@ -821,7 +821,7 @@ $(document).ready(function(){
             height = 300,
             left   = ($(window).width()  - width)  / 2,
             top    = ($(window).height() - height) / 2,
-            url    = 'http://www.linkedin.com/shareArticle?mini=true&title=PhotoChrome&summary='+message+'&url=' + encodeURIComponent(window.location.href),
+            url    = 'https://www.linkedin.com/shareArticle?mini=true&title=PhotoChrome&summary='+message+'&url=' + encodeURIComponent(window.location.href),
             opts   = 'status=1' +
                     ',width='  + width  +
                     ',height=' + height +
